@@ -1,2 +1,2 @@
 #!/bin/bash
-ls && ls BlazorApp1
+./out/BlazorApp1
