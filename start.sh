@@ -1,2 +1,2 @@
 #!/bin/bash
-dotnet run --project ./BlazorApp1.csproj
+./bin/Release/net6.0/BlazorApp1
