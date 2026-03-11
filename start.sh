@@ -1,3 +1,2 @@
 #!/bin/bash
-ls 
-ls BlazorApp1
+ls && ls BlazorApp1
