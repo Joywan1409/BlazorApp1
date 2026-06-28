@@ -4,11 +4,6 @@ using Microsoft.AspNetCore.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Kestrel to listen on specific ports
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.ListenAnyIP(80); // HTTP
-});
 
 // Add services to the container
 builder.Services.AddRazorPages();
