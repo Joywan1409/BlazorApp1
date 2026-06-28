@@ -8,10 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.ConfigureKestrel(options =>
 {
     options.ListenAnyIP(80); // HTTP
-    options.ListenAnyIP(443, listenOptions =>
-    {
-        listenOptions.UseHttps(); // HTTPS
-    });
 });
 
 // Add services to the container
